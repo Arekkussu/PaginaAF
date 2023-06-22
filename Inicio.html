@@ -4,36 +4,49 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Metadatos-->
     <meta name=”author” content="Arekussu" />
     <meta name=”description” content="Pagina web de Administración de Fincas Madrid" />
     <meta name=”keywords” content="administrcion, fincas, presupuestos, profesionales" />
-    <link rel="icon" href="./Files/icono.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./Css/Css.css">
-    <link rel="stylesheet" href="./Js/Js.js">
+    <!--Icono-->
+    <link rel="icon" href="../PaginaAF/Files/icono.ico">
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="ruta/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../PaginaAF/Css/Css.css">
+    <!--Js-->
+    <link rel="stylesheet" href="../PaginaAF/Js/Js.js">
+
     <title>Administración de Fincas Madrid</title>
 </head>
 
 <body>
-    <!--NAV BAR-->
-    <nav class="navbar sticky-top navbar-expand-lg bg-light">
-        <div class="container-fluid">
+
+    <nav class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid justify-content-center">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="../develop/Inicio.html">Inicio</a>
-                    <a class="nav-link" href="../develop/Index/Servicios.html">Servicios</a>
-                    <a class="nav-link" href="../develop/Index/Presupuestos.html">Presupuestos</a>
-                    <a class="nav-link" href="../develop/Index/Contacto.html">Contacto</a>
+                    <a class="navbar-brand" href="#">
+                        <img src="../PaginaAF/Files/logo2.png" alt="LogoAF" width="300" height="80">
+                    </a>
+                </div>
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="../PaginaAF/Inicio.html" style="background-color: #EF0B3D;  color: white; font-size:larger;" > Inicio </a>
+                    <a class="nav-link active" href="../PaginaAF/Index/Servicios.html" style= "font-size:larger;"> Servicios </a>
+                    <a class="nav-link active" href="../PaginaAF/Index/Presupuestos.html" style= "font-size:larger;"> Presupuestos </a>
+                    <a class="nav-link active" href="../PaginaAF/Index/Contacto.html" style= "font-size:larger;"> Contacto </a>
                 </div>
             </div>
-            <a class="navbar-brand d-flex" href="#">
-                <img src="../develop/Files/Logo.png" alt="LogoAF" width="170" height="50">
-            </a>
         </div>
     </nav>
+    
+
+    
 
 
     <!--CARROUSEL
